@@ -1,0 +1,19 @@
+name: intl_util
+version: 1.0.0
+author: CalvinML <CalvinML@yeah.net>
+description: >-
+  Code that handles internationalization/localization messages, date and number formatting and parsing, bidirectional text, and other internationalization issues.
+
+homepage: https://github.com/dart-lang/intl_util
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  analyzer: '>=0.39.12'
+  args: '>=0.12.1'
+  dart_style: ^1.0.0
+  intl: '>=0.15.3'
+  path: '>=0.9.0'
+  petitparser: ^3.0.0
+dev_dependencies:
+  test: ^1.17.0
